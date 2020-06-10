@@ -13,3 +13,20 @@ A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos 
 nº 1293.
 
 O retorno deverá ser template string*/
+
+// criar funcão pegarNomeCompleto(parametro1, parametro)
+// dentro da funcao, insira objeto endereco
+// retornar com algumas informações: 
+
+// `A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com
+
+// nº 1293.`
+//O retorno deverá ser template string*/
+
+function pegarNomeCompleto(nome, sobrenome) {
+  const nomeSobrenome = nome + " " + sobrenome;
+
+  const modificarNomeCompleto = nomeSobrenome.toUpperCase();
+  console.log(modificarNomeCompleto);
+}
+console.log(pegarNomeCompleto('Marisa','Fátima'))

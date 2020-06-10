@@ -3,3 +3,11 @@
     especie = cachorro
     raca = golden
 */
+let animal = {
+    porte: "grande",
+    especie: "cachorro",
+    raça: "golden",
+    
+}
+// alert(`${animal.porte}  ${animal.raça}`)
+console.log(animal)

@@ -6,11 +6,11 @@ Portanto, as variáveis ​​JavaScript com caracteres minúsculos e
 maiúsculos são diferentes: */
 
 
-const name = 'Gabriele';
+const primeiroName = 'Gabriele';
 
-const Nome = 'Maria';
+const primeiroNome = 'Maria';
 
-const NAME = 'Patrícia';
+const primeiroName = 'Patrícia';
 
 console.log(nome);
 // "Robin Wieruch"

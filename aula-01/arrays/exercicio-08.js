@@ -12,3 +12,6 @@ const tarefas = [{
 }];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+
+let AcesseTarefas = tarefas[0].reuniao.faculdade
+console.log(AcesseTarefas);
