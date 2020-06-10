@@ -7,3 +7,7 @@ Em seguida, mostre no console.log
 */
 console.log(listaNomes.push("Beatriz"))
 console.log(listaNomes);
+
+listaNomes.push("Beatriz");
+
+console.log(listaNomes);

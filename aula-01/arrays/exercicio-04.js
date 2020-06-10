@@ -6,4 +6,8 @@ const listaAfazeres = ["Tomar café", "Estudar", "Almoçar", "Descansar"]
 Em seguida, mostre no console.log*/
 listaAfazeres.shift()
 // listaAfazeres.splice(1,3)
-console.log(listaAfazeres);
+
+listaAfazeres.shift();
+//listaAfazeres.splice(1,3) ;
+
+console.log(listaAfazeres)

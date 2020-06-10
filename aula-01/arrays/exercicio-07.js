@@ -5,5 +5,6 @@ const pokemon = ["Pikachu", "Bulbassauro", "Charizard", "Squirtle", "Toguepi", "
 
 Desta forma:*/ "Pikachu-Bulbassauro-Charizard-Squirtle-Toguepi-Meowth"
 
-let modificarPokemon = pokemon.join(" -")
+let modificarPokemon = pokemon.join('-');
+
 console.log(modificarPokemon);

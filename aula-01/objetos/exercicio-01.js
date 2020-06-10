@@ -4,10 +4,11 @@
     raca = golden
 */
 let animal = {
-    porte: "grande",
-    especie: "cachorro",
-    raça: "golden",
-    
+    porte: "Grande",
+    especie: "Cachorro",
+    raca: "Golden"
 }
-// alert(`${animal.porte}  ${animal.raça}`)
+
+//verificar objeto
+
 console.log(animal)

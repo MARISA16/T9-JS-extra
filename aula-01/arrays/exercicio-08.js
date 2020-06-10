@@ -8,10 +8,16 @@ const tarefas = [{
   reuniao: {
     faculdade: "Segunda-feira",
     amigos: "Sexta-feira"
-  }
-}];
+  },
+},
+];
 
 /* Acesse a propriedade do objeto do terceiro item*/
 
 let AcesseTarefas = tarefas[0].reuniao.faculdade
 console.log(AcesseTarefas);
+//variável auxiliadora para fazermos a analise
+let acessarTarefas = tarefas[0].reuniao;
+
+//acessar o primeiro item que contém a propriedade reunião.
+console.log(acessarTarefas)
